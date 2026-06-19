@@ -1,6 +1,6 @@
 // Minimaler Service Worker: macht die App installierbar und cached die Shell (Offline-Start).
 // Plan-Daten kommen live von api.github.com (anderer Origin) und werden NICHT gecached.
-const CACHE = "dpb-mobile-v1";
+const CACHE = "dpb-mobile-v2";
 
 self.addEventListener("install", (e) => {
   self.skipWaiting();
